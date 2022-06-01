@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="/conversor.css ">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab">
+
+</head>
+
+<body>
+
+    <h1>Conversor de Temperatura °C → °F(Fahrenheit) ou K(Kelvin) </h1>
+    <form>
+        <fieldset>
+            <label>Temperatura:</label>
+            <br><input type="number" id="celsius">
+            <label>°C</label>
+            <br><br><label>Selecione a Unidade:</label><br>
+            <select id="Temperatura">
+                <option selection>Selecione...</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <br><br><button class="button" type="button">Converter Para ...</button>
+
+            <h2>Temperatura Convertida:<span id="resultado"></span></h2>
+        </fieldset>
+    </form>
+    <script src="/conversos.js"></script>
+</body>
+
+</html>
