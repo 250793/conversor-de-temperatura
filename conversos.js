@@ -31,7 +31,7 @@ function celsiusToFahrenheitOrKelvin() {
     }
 }
 
-// Chama a função 'celsiustoFahrenheitOrKelvin' a partir do click do botão no HTML
+// Chama a função 'celsiustoFahrenheitOrKelvin' a partir do click do botão no HTMLgi
 button.addEventListener('click', celsiusToFahrenheitOrKelvin);
 
 // Chama a função 'alteraBotao' a partir da mudança de seleção da temperatura
